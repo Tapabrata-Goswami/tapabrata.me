@@ -4,35 +4,65 @@
     display: block;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    cursor:pointer;
-}
 .navbar{
     display: flex;
-    background-color: antiquewhite;
-    padding: 17px;
+    background-color: #FFE15D;
+    padding:10px 20px;
+    box-shadow:0px 2px 8px #a7a5a1;
+    z-index: 99999;
 }
 .logo{
     width:30%;
 }
 .logo_style{
+    font-family: 'Zeyada', cursive;
+    font-size:36px;
     text-decoration: none;
-    color: black;
-    font-size:18px;
+    color:black;
+    font-weight:400;
 }
 .menu{
-    width: auto;
+    width:70%;
+}
+.menu ul{
+    float: right;
+    padding-right: 40px;
+}
+.menu ul li{
+    padding-top:5%;
+    float: left;
 }
 .menu ul li a{
     text-decoration: none;
-    font-size: 16px;
-    color:black;
-    padding-left:4px;
-    padding-right:4px;
+    font-size: 18px;
+    color: black;
+    justify-content: right;
+    padding:0px 15px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
 }
-.menu ul li{
-    text-align: right;
-}
-.menu ul{
+
+.details{
     display: flex;
+    justify-content: center;
+    padding-top:50px;
 }
+.tapabrata{
+    height: 200px;
+    border-radius:250px ;
+}
+.name{
+    padding-top:5px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    font-size: 22px;
+}
+.loaction{
+    color:black;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+
