@@ -1,117 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Zeyada&display=swap');
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     display: block;
 }
-.navbar{
-    display: flex;
-    background-color: #FFE15D;
-    padding:10px 20px;
-    box-shadow:0px 2px 8px #a7a5a1;
-    z-index: 99999;
-}
-.logo{
-    width:30%;
-}
-.logo_style{
-    font-family: 'Zeyada', cursive;
-    font-size:36px;
-    text-decoration: none;
-    color:black;
-    font-weight:400;
-}
-.menu{
-    width:70%;
-}
-.menu ul{
-    float: right;
-    padding-right: 40px;
-}
-.menu ul li{
-    padding-top:5%;
-    float: left;
-}
-.menu ul li a{
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    justify-content: right;
-    padding:0px 15px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 600;
-}
-.details{
-    display: flex;
-    justify-content: center;
-    padding:25px 0px;
-}
-.tapabrata{
-    height: 250px;
-    border-radius:250px ;
-}
-.name{
-    text-align: center;
-    padding-top:5px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 600;
-    font-size: 22px;
-}
-.img_name .tapabrata{
-    width:100%;
-}
-.location_tapa{
-    display: flex;
-    justify-content: center;
-    padding-top: 5px;
-}
-.location_tapa span p{
-    color:black;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 600;
-    font-size: 18px;
-    text-align: center;
-}
-.project{
-    display: flex;
-    justify-content: center;
-    padding:25px 20px;
-}
-.project1{
-    margin: 0px 8px;
-    /* border:1px solid black; */
-    border-radius: 12px;
-    padding:15px 18px;
-    text-align: left;
-    box-shadow:3px 5px 8px rgb(144, 144, 144);
-}
-.project1_headeing{
-    padding-bottom: 4px;
-    font-size: 20px;
-    font-weight:500;
-    font-family: 'Comfortaa', cursive;
-}
-.project1_description{
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 9px;
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-}
-.btn{
-    width:60%;
-    text-decoration: none;
-    font-size:16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #FFE15D;
-    border-radius: 5px;
-    color:black;
-    text-align: center;
-    padding: 8px 0px;
-}
 
+@media only screen and (max-width:1376px) and (min-width:840px) {
+    .navbar {
+        display: flex;
+        background-color: #FFE15D;
+        padding: 10px 20px;
+        box-shadow: 0px 2px 8px #a7a5a1;
+        z-index: 99999;
+    }
 
+    .logo {
+        width: 30%;
+    }
 
+    .logo_style {
+        font-family: 'Zeyada', cursive;
+        font-size: 36px;
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+    }
+
+    .menu {
+        width: 70%;
+    }
+
+    .menu ul {
+        float: right;
+        padding-right: 40px;
+    }
+
+    .menu ul li {
+        padding-top: 5%;
+        float: left;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        justify-content: right;
+        padding: 0px 15px;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 600;
+    }
+
+    .details {
+        display: flex;
+        justify-content: center;
+        padding: 25px 0px;
+    }
+
+    .tapabrata {
+        height: 250px;
+        border-radius: 250px;
+    }
+
+    .name {
+        text-align: center;
+        padding-top: 5px;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .img_name .tapabrata {
+        width: 100%;
+    }
+
+    .location_tapa {
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+    }
+
+    .location_tapa span p {
+        color: black;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .project {
+        display: flex;
+        justify-content: center;
+        padding: 25px 20px;
+    }
+
+    .project1 {
+        margin: 0px 8px;
+        /* border:1px solid black; */
+        border-radius: 12px;
+        padding: 15px 18px;
+        text-align: left;
+        box-shadow: 3px 5px 8px rgb(144, 144, 144);
+    }
+
+    .project1_headeing {
+        padding-bottom: 4px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .project1_description {
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 9px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        width: 60%;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #FFE15D;
+        border-radius: 5px;
+        color: black;
+        text-align: center;
+        padding: 8px 0px;
+    }
+    .footer{
+        background-color: #ffcd77;
+        padding:25px;
+    }
+    .copyright{
+        display: flex;
+        /* justify-content: center; */
+    }
+    .copyright .madeby p{
+        float: right;
+    }
+
+}
