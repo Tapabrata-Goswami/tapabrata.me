@@ -80,20 +80,38 @@
 }
 .project1{
     margin: 0px 8px;
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius: 12px;
     padding:15px 18px;
-    text-align: justify;
+    text-align: left;
     box-shadow:3px 5px 8px rgb(144, 144, 144);
 }
 .project1_headeing{
-    font-size: 22px;
+    padding-bottom: 4px;
+    font-size: 20px;
     font-weight:500;
     font-family: 'Comfortaa', cursive;
 }
 .project1_description{
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 9px;
 }
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width:60%;
+    text-decoration: none;
+    font-size:16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFE15D;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    padding: 8px 0px;
+}
+
 
 
