@@ -42,23 +42,31 @@
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
 }
-
 .details{
     display: flex;
     justify-content: center;
-    padding-top:50px;
+    padding:50px 0px;
 }
 .tapabrata{
-    height: 200px;
+    height: 250px;
     border-radius:250px ;
 }
 .name{
+    text-align: center;
     padding-top:5px;
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
     font-size: 22px;
 }
-.loaction{
+.img_name .tapabrata{
+    width:100%;
+}
+.location_tapa{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.location_tapa span p{
     color:black;
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
