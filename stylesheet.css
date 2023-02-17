@@ -45,7 +45,7 @@
 .details{
     display: flex;
     justify-content: center;
-    padding:50px 0px;
+    padding:25px 0px;
 }
 .tapabrata{
     height: 250px;
@@ -72,6 +72,28 @@
     font-weight: 600;
     font-size: 18px;
     text-align: center;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    padding:25px 20px;
+}
+.project1{
+    margin: 0px 8px;
+    border:1px solid black;
+    border-radius: 12px;
+    padding:15px 18px;
+    text-align: justify;
+    box-shadow:3px 5px 8px rgb(144, 144, 144);
+}
+.project1_headeing{
+    font-size: 22px;
+    font-weight:500;
+    font-family: 'Comfortaa', cursive;
+}
+.project1_description{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
